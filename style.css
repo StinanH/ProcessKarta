@@ -1,0 +1,144 @@
+
+/*Loads in the fonts from the font folder.*/
+@font-face {
+    font-family: 'Stockholm Type Regular';
+    src: url('fonts/stockholmtype-regular.woff2') format('woff2'),
+         url('fonts/stockholmtype-bold.woff2') format('woff2')
+}
+
+body {
+    font-family: 'Stockholm Type Regular', verdana, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left (top to bottom) */
+    align-items: flex-start;    /* Align content to the top */
+    height: 100vh;              /* Full viewport height */
+    background-color: #F5F3EE;
+    flex-direction: column;     /* Stack content vertically */
+}
+
+/* Header styles - unchanged */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 250px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;    
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Adjust the space so that the body starts below the header */
+#question-container {
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 120px; /* Space from header */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: calc(100vh - 120px); /* Adjust height to fit within the viewport */
+    padding-right: 20px; /* Adjust this value to ensure the scrollbar appears fully on the right */
+}
+
+#title {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Question styles */
+.question {
+    background-color: #CFE4FC;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the final suggestion style */
+.final-suggestion {
+    background-color: #2E6CB9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+/* Styles for the info box */
+.info-box {
+    background-color: #BA5037;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+/* Button styles - unchanged */
+button {
+    font-family: 'Stockholm Type Regular', verdana, arial, helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    border-color: #000000;
+    background-color: #2E6CB9;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2E6CB9;
+    color: #FFFFFF;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:disabled {
+    background-color: #616161;
+    cursor: not-allowed;
+}
+
+button.selected {
+    background-color: #2E6CB9;
+    color: rgb(255, 255, 255);
+}

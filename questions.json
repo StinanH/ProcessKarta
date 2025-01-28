@@ -1,0 +1,244 @@
+{
+    "questions":[
+        {
+            "id": 1,
+            "question" : "",
+            "answers": {
+                "Våldsutövare": 3,
+                "Våldsutsatt": 2
+              },
+            "finalsuggestion" : "",
+            "information" : ""
+        },
+        {
+            "id": 2,
+            "question" : "I behov av förändrade boendeförhållanden.",
+            "answers": {
+                "ja": 4,
+                "nej": 5
+              },
+            "finalsuggestion" : "",
+            "information" : ""
+        },
+        {
+            "id": 4,
+            "question" : "Kan bo kvar i hemmet.",
+            "answers": {
+                "ja" : 6,
+                "nej" : 7
+            },
+            "finalsuggestion" : "",
+            "information" : "Detta ja-svar är beroende av våldsutövarens svar på 'Medverkar i säkerhetsplanering och kan tänka sig att lämna bostaden'"
+        },
+        {
+            "id": 5,
+            "question" : "",
+            "answers": {},
+            "finalsuggestion" : "Se över annat stöd genom RVT och/eller annan enhet",
+            "information" : ""
+        },
+        {
+            "id": 6,
+            "question" : "",
+            "answers": {},
+            "finalsuggestion" : "Motivera till fortsatt kontakt för riskbedömning/säkerhetsplanering och ev. samtalsbehandling",
+            "information": ""
+        },
+        {
+            "id": 7,
+            "question" : "Klarar eget boende: Att betala hyra i tid, att sköta ett hem och att sköta kontakt med t.ex. myndigheter självständigt.",
+            "answers": {
+                "ja" : 8,
+                "nej" : 9
+            },
+            "finalsuggestion" : "",
+            "information" : ""
+        },
+        {
+            "id": 8,
+            "question" : "Kan få bostad på egen hand genom: Stockholm stads bostadsförmedling, lägenhetsbyte, bostadsförmedlingens tjjänster eller stiftelser?",
+            "answers": {
+                "ja" : 10,
+                "nej" : 9
+            },
+            "finalsuggestion" : "",
+            "information" : ""
+        },
+        {
+            "id": 10,
+            "question" : "",
+            "answers": {},
+            "finalsuggestion" : "Se över annat behov av stöd genom RVT.",
+            "information" : ""
+        },
+        {
+            "id": 9,
+            "question" : "Har permanent eller tillfälligt uppehållstillstånd.",
+            "answers": {
+                "ja" : [12, 11, 15], 
+                "nej" : 14
+            },
+            "finalsuggestion" : "",
+            "information" : ""
+        },
+        {
+            "id": 11,
+            "question" : "Tränings eller försökslägenhet., Missbruk, Soc.psyk, Funk. (Beslut från annan enhet)",
+            "answers": {},
+            "finalsuggestion" : "",
+            "information" : "Se över annat behov av stöd genom RVT"
+        },
+        {
+            "id": 12,
+            "question" : "SHIS - Mellanbo - Avtalat (ev. med boendestöd från annan enhet) - Ung vuxen.",
+            "answers": {},
+            "finalsuggestion" : "",
+            "information" : "Se över annat behov av stöd genom RVT"
+        },
+        {
+            "id": 15,
+            "question" : "Förtur via bostadsförmedlingen: Har svenskt personnummer, Bosatt minst 1 år i  Sthlm, Skyddade personuppgifter, Kan uppfylla hyresvärds krav avseende t.ex. skuldbild och inkomst",
+            "answers": {
+                "ja": 16,
+                "nej": 17
+            },
+            "finalsuggestion" : "",
+            "information" : ""
+        },
+        {   
+            "id": 14, 
+            "question" : "",
+            "answers" : {},
+            "finalsuggestion" : "Jourlägenhet eller skyddat boende i avvaktan vidare planering",
+            "information" : ""
+        },
+        {   
+            "id": 16, 
+            "question": "",
+            "answers": {}, 
+            "finalsuggestion": "Stötta klienten med lfytt vid behov. T.ex. överföring till ny stadsdel", 
+            "information": ""
+        },
+        {   
+            "id": 17, 
+            "question": "Kan bo kvar i Stockholm", 
+            "answers": {
+                "ja": 18,
+                "nej": [19, 20]
+            },
+            "finalsuggestion": "",
+            "information": ""
+        },
+        {   
+            "id": 19, 
+            "question": "",
+            "answers": {}, 
+            "finalsuggestion" : "Förtur genom överenskommelse med hyresvärd (lägg in länk till överenskommelserna)",
+            "information":""
+        },
+        {   
+            "id": 20,
+            "question" : "",
+            "answers": {},
+            "finalsuggestion" : "Ansök om stöd i annan kommun enligt 2a kap 8 § SoL (lägg in länk till rutin)",
+            "information" : ""
+        },
+        {   
+            "id": 18, 
+            "question" : "Kan bo kvar inom Hässelby-Vällingby stadsdelsförvaltnings geografiska område.",
+            "answers": {
+                "ja": 21, 
+                "nej": 22
+            },
+            "finalsuggestion": "",
+            "infomation": ""
+        },
+        {   
+            "id": 21, 
+            "question": "",
+            "answers": {},
+            "finalsuggestion": "Förtur genom överenskommelse med lokal hyresvärd. Förutsätter att klienten kan leva upp till hyresvärdens krav inom överskådlig tid.",
+            "information": ""
+        },
+        {   
+            "id": 22,
+            "question": "",
+            "answers":{},
+            "finalsuggestion": "Byte till Skärholmen eller Hägersten-Älvsjö stadsdelsförvaltning. Förutsätter att klienten kan leva upp till hyresväredens krav inom överkådlig tid.",
+            "infomation": ""
+        },
+        {   
+            "id":3,
+            "question": "I behov av ändrade boendeförhållanden", 
+            "answers": {
+                "ja": 24,
+                "nej": 23
+            }, 
+            "finalsuggestion": "",
+            "information" : ""
+        },
+        {   
+            "id":23,
+            "question": "", 
+            "answers": {}, 
+            "finalsuggestion": "Se över annat behov av stöd genom RVT och/eller annan enhet.",
+            "information" : ""
+        },
+        {   
+            "id":24,
+            "question": "Medverkar i säkerhetsplanering och kan tänka sig att lämna bostaden",
+            "answers": {
+                "ja": 26,
+                "nej": 25
+            }, 
+            "finalsuggestion": "",
+            "information": "Detta ja-svar är beroende av den våldsutsattas svar 'Kan bo kvar i hemmet'"
+        },
+        {  
+            "id": 25,
+            "question": "",
+            "answers": {},
+            "finalsuggestion": "Motivera till att ta ansvar för våldset och/eller delta i behandling.",
+            "information": ""
+        },
+        {
+            "id": 26,
+            "question": "Kan ordna eget boende",
+            "answers": {
+                "ja": 27,
+                "nej": 28
+            },   
+            "finalsuggestion":"", 
+            "information": ""
+        },
+        {
+            "id": 27,
+            "question": "", 
+            "answers":{}, 
+            "finalsuggestion": "Motivera till fortsatt kontakt  och samtal via RVC.",
+            "information": ""
+        },
+        {
+            "id": 28,
+            "question": "Följer säkerhetsplanering och ser behov av att förändra sitt beteende.",
+            "answers": {
+                "ja": 29,
+                "nej": 30
+            },
+            "finalsuggestion": "",
+            "information": "Tillfälligt boende i avvaktan vidare utredning och planering."
+        },
+        {   "id": 29,
+            "question":"",
+            "answers":{},
+            "finalsuggestion": ["SHIS Avtalat (eventuellt med boendestöd från annan enhet)", "Bevilja samtalsbehandling hos RVC"],
+            "information": ""
+        },
+        {   "id": 30,
+        "question":"",
+        "answers":{},
+        "finalsuggestion": "Avsluta om försök att motivera till förändring misslyckats.",
+        "information" : ""
+        }
+    ]
+}
